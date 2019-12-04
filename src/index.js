@@ -6,16 +6,7 @@ import WeekHeader from './WeekHeader';
 
 function aa() {
 
-  let events = [
-    { from: new Date("12-3-2019"), to: new Date("1-3-2020") },
-    // { from: new Date("11-1-2019"), to: new Date() },
-    // { from: new Date(), to: new Date("1-3-2020") },
-    // { from: new Date("1-2-2020"), to: new Date("1-3-2020") },
-    // { from: new Date("1-3-2020"), to: new Date("1-3-2020") },
-    // { from: new Date("1-3-2020"), to: new Date("1-4-2020") },
-    // { from: new Date(), to: new Date()},
-    // { from: new Date(), to: new Date() },
-  ];
+  let events = this.props.events;
 
   let eventSlots = {};
   for (let event of events) {
