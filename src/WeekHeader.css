@@ -1,0 +1,12 @@
+.th {
+    flex: 30px 0 0;
+} 
+.th { display: flex; }
+.th>span {
+  text-align: right;
+}
+.th>span{
+    width: 100%;
+    color: #536DFE;
+    font-weight: bold;
+}

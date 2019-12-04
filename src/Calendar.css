@@ -1,0 +1,73 @@
+table {
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
+  font-family: 'Ubuntu';
+  border-spacing: 0;
+  background-color: #fff;
+}
+
+th, td {
+  border: 1px solid rgba(255,255,255,0.1);
+  box-sizing: border-box;
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 0;
+  color:#000;
+  background-color: #fff;
+  letter-spacing: 1px;
+  border: 1px solid rgba(212, 209, 209, 0.45);
+}
+td {
+  width: 14.285%;
+  transition: all 0.3s;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 1.5% 1.5% 5%;
+  vertical-align: initial;
+  padding: 1.5% 0;
+  height: 75px;
+  border: 1px solid rgba(212, 209, 209, 0.45);
+}
+.day:hover {
+  border: 1px solid #000;
+  cursor: pointer;
+}
+span.active {
+  margin-left: 10%
+}
+div.active{
+  text-align: right;
+  margin-right: 4px;
+  font-size: 20px;
+}
+div.inactive{
+  text-align: right;
+  margin-right: 4px;
+  font-size: 20px;
+  color: #999;
+}
+span.event {
+  height: 6px;
+  display: block;
+  margin: 5px 10%;
+  background-color: #2196F3;
+}
+span.event-multiday {
+   margin: 5px -2px; border-radius: 0;
+  }
+span.event-multiday-start {
+  margin-right: -4px;
+}
+span.event-multiday-finish {
+  margin-left: -4px; 
+}
+span.event-ghost {
+  background-color:transparent;
+}
